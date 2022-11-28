@@ -1,0 +1,641 @@
+/*segunda entrega del proyecto final*/
+
+/* hacer entrega del proyecto (dos paginas a eleccion)
+
+adaptado a la vista mobile y a la vista desktop agregando animaciones.
+
+para el mismo optar entre el correcto del framework o sin el uso del mismo.
+
+la entrega se debera cargar a un repositorio de github publico. /*
+
+/*
+    no se incluyen ni pseudoclases ni pseudoelementos
+    se debe de tocar el mediaquery
+    dos paginas adaptables a celular
+    la pagina se debe ver en desktop y en celular
+    acordamos 576 para abajo es un celu, hacer el media queri
+
+    le agregamos una clase propia a la etiqueta para cambiarla.
+    le quetamos la clase y agregamos una clase propia
+
+*/
+
+
+.container-fluid{
+    margin:0px;
+    padding: 0px;
+}
+
+#imagendefondo{
+    grid-area: contenidoimagenfondo;
+    background-image: url('../assets/imagenes/fondodosasesores.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+
+
+
+/*-----------------------index.html-------------------------------------*/
+
+ 
+
+/*----Estilos a mi Header----*/
+
+
+.divheader{
+    display:flex;
+   
+ }
+
+        .divheader h1{
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:white;
+            padding-top: 10px;
+        }
+
+
+ /*-------Estilos a mi nav--------*/
+
+ 
+
+#navindex{
+    background:rgba(16, 60, 255, 0.876);
+    background-blend-mode: soft-light;
+}
+
+   #MenuNavegacion a{
+        color:white;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+
+/*----Estilos a mi Section----*/
+
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+ 
+}
+
+     article {        
+         width:min-content;
+       }
+
+     section article p{         
+        color:white;
+         font-family: 'Courier New';
+         font-size: 50px;
+     }
+
+
+
+     article div span a{
+          color:white;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+     }
+     
+     a:hover{
+        color:red;
+
+     }
+
+
+/*----Estilos de mi aside----*/
+
+#asideindex{
+ background:rgba(250, 50, 50, 0.876);
+ background-blend-mode: soft-light;
+
+}
+aside{
+ grid-area: aside;
+ display: grid;
+ align-items: center;
+ margin: 10px;
+}
+
+        #idaside iframe{
+            width: 100%;
+            height: 20rem;
+        }
+
+
+     .video{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 20px;
+
+     }
+
+     
+
+     div p{
+         color: white;
+         font-family: 'Courier New';
+         font-size: 20px;
+         text-align: center;
+     }
+
+
+/*----Estilos de mi footer----*/
+
+footer{
+ grid-area: footer;
+ display:flex;
+ justify-content: center;
+ background-color: orange;
+
+
+}
+
+     footer .classfooter{
+         align-items: center;
+         display:flex;
+         gap: 2px;
+     }
+
+     .classfooter a{
+         text-decoration: none;
+     }
+
+     .classfooter a p{
+         margin: 20px;
+     }
+
+
+
+
+/*-----------------MOVILE INDEX.HTML----------------*/
+
+/*cuando sea maximo 1000px*/
+
+@media screen and (max-width:1000px){
+    
+  
+#idsection{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        
+    }   
+   
+
+    #idsection article p {         
+        color:black;
+         font-family: 'Courier New';
+         font-size: 52px;
+        
+       
+     }
+     article div span a{
+          color:black;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+     }
+     
+     #divfondosection{
+        background-color: yellow;
+     }
+}
+
+/*cuando sea maximo 576px*/
+
+@media screen and (max-width: 576px){
+
+    #idsection article p {         
+        color:black;
+         font-family: 'Courier New';
+         font-size: 50px;
+       
+     }
+     article div span a{
+          color:black;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+     }
+     
+     #divfondosection{
+        background-color: white
+     }  
+   
+       
+       
+       .classfooter{
+                align-items: center;
+                display:flex;
+                 flex-direction: column;
+                 align-items: center;
+       
+            }
+       
+            .clfassfooter a{
+                text-decoration: none;
+            }
+       
+            .classfooter a p{
+                margin: 20px;
+            }
+       
+
+       
+       
+            .classfooter{
+                align-items: center;
+                display:flex;
+                 flex-direction: column;
+                 align-items: center;
+       
+            }
+       
+            .classfooter a{
+                text-decoration: none;
+            }
+       
+            .classfooter a p{
+                margin: 20px;
+            }
+       
+
+}
+/*-----------------------fin de index.html-------------------------------------*/
+/*
+-------------------------
+----------------------------
+------------------------------
+---------------------------------*/
+
+/*------------------sodimaccorporativo.html---------------------------------*/
+
+
+
+#cajamain{
+    
+ 
+   padding-right: 0px;
+   margin:0px;
+}
+
+#cajaside{
+    padding: 0px;
+    background:rgba(250, 50, 50, 0.876);
+ }
+
+.soysection2{
+
+    display: flex;
+    justify-content: center;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+/*----Estilos a mi main----*/
+
+
+main{
+    background:rgba(16, 60, 255, 0.876);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+    main p{
+            margin: 100px;      
+    }
+
+ 
+
+    main img{
+        width: 500px;
+        height: 500px;
+      
+        padding-bottom: 20px;
+
+    }
+
+
+ /*----Estilos de mi aside----*/
+
+ #regresoindex{
+
+    background-color: rgb(255, 255, 255,0.876);
+    grid-area:regresoindex;
+    display:flex;
+    justify-content: center;
+
+   
+
+}
+
+#regresoindex a{
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display:flex;
+
+}
+
+
+
+
+
+
+
+/*-----------MOVILE SODIMACCORPORATIVO.HTML---------*/
+
+
+@media screen and (max-width:925px){
+    .soysection2{
+            display: none;
+
+    }
+    main{
+        background-color: rgb(255, 255, 255,0.876);
+    }
+    main p{
+
+        color:black;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    main img{
+        width: 350px;
+        height: 350px;
+      
+        padding-bottom: 20px;
+    }
+
+}
+
+
+/*cuando sea maximo 576px*/
+
+@media screen and (max-width: 576px){
+
+    main p{
+
+        color:red;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+}
+
+
+
+
+/*-----------------------fin de sodimaccorporativo.html-------------------------------------*/
+/*
+-------------------------
+----------------------------
+------------------------------
+---------------------------------*/
+
+/*------------------Sodimac.html---------------------------------*/
+
+
+
+#cajadeimagen{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+}
+/*
+#cajadeimagen img{
+    height: 600px;
+
+}*/
+
+#cajadeimagen p{
+
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+#listadetiendassodimac{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+}
+
+
+#listadetiendassodimac img{
+    height: 200px;
+    width: 500px;
+}
+
+#listadetiendassodimac p{
+    color:white;
+    font-family: 'Courier New';
+    font-size: 25px;
+}
+
+#cajabody{
+    background-color: rgba(22, 35, 205, 0.876);
+    background-repeat: repeat;
+    opacity: 0,5
+
+}
+
+/*--dando animaciones  a mis imagenes de los diversos maestros y sodimac en sodimachtml y maestrohtml */
+
+.animacion:hover{
+    transform: scale(0.9); 
+     transition: all 1.5s;
+         }
+
+
+/*cuando sea maximo 1162px*/
+
+@media screen and (max-width: 1150px){
+
+   #listadetiendassodimac img{
+        width: 110%;
+   }
+   #cajadeimagen p{
+        font-size: 30px;
+   }
+    #cajadeimagen img{
+        width: 120%;
+   }
+
+}
+@media screen and (max-width: 576px){
+#listadetiendassodimac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    #cajadeimagen img{
+        width: 100%;
+   }
+    #listadetiendassodimac img{
+        width: 100%
+   }
+    #cajadeimagen p{
+        font-size: 30px;
+   }
+    #cajabody{
+        color:white;
+    }
+
+ }
+
+
+/*-----------------------fin de sodimac.html-------------------------------------*/
+/*
+-------------------------
+----------------------------
+------------------------------
+---------------------------------*/
+
+/*------------------maestro.html---------------------------------*/
+
+#cajabodymaestro{
+    background-color: rgba(211, 18, 11, 0.876);
+    background-repeat: repeat;
+    opacity: 0,5
+}
+#navmaestro{
+    background:rgba(237, 3, 3, 0.876);
+    background-blend-mode: soft-light;
+}
+
+
+
+/*--------------ESTILOS A ingresaMaestroventanilla.html-----*/
+
+/*dando gradientes a mi header*/
+#headermaestro{
+    margin: 0px;
+}
+
+#headermaestro h2{
+    font-size: 100px;
+    background: rgb(222,238,55);
+    background: linear-gradient(90deg, rgba(222,238,55,1) 0%, rgba(225,246,14,1) 40%, rgba(255,0,0,1) 72%);
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+/*dando gradientes a mi nav*/
+#navmaestro{
+    background: rgb(222,238,55);
+    background: linear-gradient(90deg, rgba(222,238,55,1) 0%, rgba(225,246,14,1) 40%, rgba(255,0,0,1) 72%);
+    margin: 0px;
+    
+}
+
+
+
+
+       #navventanilla ul {       
+           display:flex;
+           justify-content: center; /*envia a la derecha mis li*/
+           gap:35px; /*Da un espaceado entre mis li*/
+           list-style: none;/*elimina los estilos de mi lista, el punto*/
+           padding-top: 15px;
+       }
+
+
+
+       #navventanilla li {
+          
+           padding-top: 20px;
+      
+        }
+        #navventanilla ul li a{
+            text-decoration:none;
+            color:black;
+            font-size: 22px;
+            font-family: 'Courier New', Courier, monospace;
+            padding-right: 10px;
+            }
+
+#sectionmaestroventanilla figure img{
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+
+}
+#sectionmaestroventanilla figure figcaption{
+    color:white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*dando gradientes a mi section*/
+
+#sectionmaestroventanilla{
+  
+    justify-content: center;
+    background-image: linear-gradient(
+  45deg,
+  hsl(0deg 95% 48%) 0%,
+  hsl(4deg 95% 48%) 13%,
+  hsl(8deg 96% 48%) 26%,
+  hsl(12deg 96% 48%) 37%,
+  hsl(16deg 97% 49%) 47%,
+  hsl(20deg 97% 49%) 56%,
+  hsl(24deg 98% 49%) 64%,
+  hsl(28deg 98% 49%) 71%,
+  hsl(31deg 98% 49%) 76%,
+  hsl(35deg 98% 49%) 80%,
+  hsl(39deg 98% 49%) 84%,
+  hsl(43deg 99% 50%) 87%,
+  hsl(47deg 99% 50%) 90%,
+  hsl(51deg 100% 50%) 94%,
+  hsl(55deg 100% 50%) 100%
+);
+
+
+
+}
+#asidemaestroventanilla {
+     display:grid;
+     
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "parrafo ifr"
+}
+#asidemaestroventanilla p{
+    grid-area: parrafo;
+    color:black;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#asidemaestroventanilla iframe{
+    grid-area: ifr;
+    width: 400px;
+    height: 400px;
+    
+}
