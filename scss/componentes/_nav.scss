@@ -1,0 +1,15 @@
+ /*-------Estilos a mi nav--------*/
+
+ #navindex{
+    background:nth($color , 1 );
+    background-blend-mode: soft-light;
+}
+
+   #MenuNavegacion a{
+        color: nth($color-text,1 );
+        font-size: nth($f-size ,2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    

@@ -1,3 +1,116 @@
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
 
+#imagendefondo {
+  grid-area: contenidoimagenfondo;
+  background-image: url("../assets/imagenes/fondodosasesores.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Estilos a mi header*/
+.divheader {
+  display: flex;
+}
+
+.divheader h1 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  padding-top: 10px;
+}
+
+/*-------Estilos a mi nav--------*/
+#navindex {
+  background: rgba(16, 60, 255, 0.876);
+  background-blend-mode: soft-light;
+}
+
+#MenuNavegacion a {
+  color: white;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*----Estilos a mi Section----*/
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+article {
+  width: min-content;
+}
+
+section article p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 50px;
+}
+
+article div span a {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a:hover {
+  color: rgba(250, 50, 50, 0.876);
+}
+
+/*----Estilos de mi aside----*/
+#asideindex {
+  background: rgba(250, 50, 50, 0.876);
+  background-blend-mode: soft-light;
+}
+
+aside {
+  align-items: center;
+  margin: 10px;
+}
+
+#idaside iframe {
+  width: 100%;
+  height: 20rem;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+div p {
+  color: white;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+}
+
+/*----Estilos de mi footer----*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+footer .classfooter {
+  align-items: center;
+  display: flex;
+  gap: 2px;
+}
+
+.classfooter a {
+  text-decoration: none;
+}
+
+.classfooter a p {
+  margin: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
