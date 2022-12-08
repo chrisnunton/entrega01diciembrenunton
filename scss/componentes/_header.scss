@@ -1,0 +1,13 @@
+/*Estilos a mi header*/
+
+
+.divheader{
+    display: $f;
+}
+
+.divheader h1 {
+    font-size: nth($f-size, 1 );
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: nth($color-text ,1 );
+    padding-top: 10px;
+  }

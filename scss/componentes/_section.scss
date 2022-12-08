@@ -1,0 +1,32 @@
+/*----Estilos a mi Section----*/
+
+section{
+    
+    display: $f;
+    flex-direction: $fdr;
+    justify-content: flex-end;
+ 
+}
+
+     article {        
+         width:min-content;
+       }
+
+     section article p{         
+        color:nth($color-text ,1 );
+         font-family: 'Courier New';
+         font-size: nth($f-size,3 );
+     }
+
+
+
+     article div span a{
+          color:nth($color-text ,1 );
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+     }
+     
+     a:hover{
+        color:nth($color , 2 )
+
+     }
