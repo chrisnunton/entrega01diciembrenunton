@@ -1,0 +1,26 @@
+/*------------------maestro.html---------------------------------*/
+@mixin cajabodypaginamaestro($color,$rep,$opa){
+    background-color: $color;
+    background-repeat: $rep;
+    opacity: $opa;
+}
+
+@mixin navamaestro($color,$blemd){
+    background-color: $color;
+    background-repeat: $blemd;
+    
+}
+
+
+
+
+
+#cajabodymaestro{
+    @include cajabodypaginamaestro(rgba(211, 18, 11, 0.876),repeat, 0.5);
+    
+}
+#navmaestro{
+    @include navamaestro(rgba(237, 3, 3, 0.876),soft-light );
+    
+}
+

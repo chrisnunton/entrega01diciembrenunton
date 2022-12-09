@@ -43,6 +43,18 @@
   transition: all 1.5s;
 }
 
+/*------------------maestro.html---------------------------------*/
+#cajabodymaestro {
+  background-color: rgba(211, 18, 11, 0.876);
+  background-repeat: repeat;
+  opacity: 0.5;
+}
+
+#navmaestro {
+  background-color: rgba(237, 3, 3, 0.876);
+  background-repeat: soft-light;
+}
+
 .container-fluid {
   margin: 0px;
   padding: 0px;
