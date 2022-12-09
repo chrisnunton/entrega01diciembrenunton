@@ -8,20 +8,22 @@ footer{
     justify-content: center;
     background-color: nth($color, 3 );
    
+    .classfooter{
+        align-items: center;
+        display: $f;
+        gap: 2px;
+        a{
+            text-decoration: none;
+            p{
+                margin: 20px;
+            }
+        }
+    }
    
    }
    
-        footer .classfooter{
-            align-items: center;
-            display: $f;
-            gap: 2px;
-        }
+       
    
-        .classfooter a{
-            text-decoration: none;
-        }
+       
    
-        .classfooter a p{
-            margin: 20px;
-        }
-   
+     

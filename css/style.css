@@ -154,18 +154,15 @@ footer {
   justify-content: center;
   background-color: orange;
 }
-
 footer .classfooter {
   align-items: center;
   display: flex;
   gap: 2px;
 }
-
-.classfooter a {
+footer .classfooter a {
   text-decoration: none;
 }
-
-.classfooter a p {
+footer .classfooter a p {
   margin: 20px;
 }
 
