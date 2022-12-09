@@ -1,5 +1,10 @@
 @import './base/var';
 @import './base/listas';
+@import "./base/mapssodimaccorporativo";
+
+
+
+
 
 @import './componentes/viejocss';
 @import './componentes/header.scss';
@@ -7,3 +12,5 @@
 @import './componentes/section';
 @import './componentes/aside';
 @import './componentes/footer';
+
+@import "./componentes/sodimacorporativo";

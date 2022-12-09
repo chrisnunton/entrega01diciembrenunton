@@ -1,0 +1,74 @@
+
+     
+/*------------------sodimaccorporativo.html---------------------------------*/
+
+
+.cajamain{
+     
+    padding-right: 0px;
+    margin:0px;
+ }
+ 
+ .cajaside{
+     padding: 0px;
+     background-color: map-get($cajaaside ,bc-cajaaside );
+  }
+ 
+ .soysection2{
+ 
+     display: map-get($todoflex, displa );
+     justify-content: center;   
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  
+ }
+ 
+ /*----Estilos a mi main----*/
+ 
+ 
+ main{
+    background-color: map-get($cajamain ,bc-cajamain );
+    display: map-get($todoflex, displa );
+     flex-direction: column;
+     align-items: center;
+     p{
+        margin: 100px;      
+        }
+    img{
+            width: 500px;
+            height: 500px;
+        
+            padding-bottom: 20px;
+    
+        }
+ }
+ 
+     
+  
+ /*----Estilos de mi aside----*/
+
+ #regresoindex{
+
+    background-color: map-get($regresoindex,bc-regreindex );
+    grid-area:regresoindex;
+    display: map-get($todoflex, displa );
+    justify-content: center;
+
+    a{
+        font-size: 32px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        text-decoration: none;
+        align-items: center;
+        display: map-get($todoflex, displa );
+    
+    }
+
+}
+
+
+
+
+ 
+    
