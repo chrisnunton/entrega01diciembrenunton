@@ -1,0 +1,64 @@
+
+
+
+
+/*------------------Sodimac.html---------------------------------*/
+%dispo{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#cajadeimagen{
+
+    @extend %dispo;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+
+    p{
+
+        font-size: 35px;
+        padding-top: 80px;
+    }
+}
+
+
+
+#listadetiendassodimac{
+    
+    @extend %dispo;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+    img{
+        height: 200px;
+        width: 500px;
+    }
+    p{
+        color:white;
+        font-family: 'Courier New';
+        font-size: 25px;
+    }
+}
+
+
+#cajabody{
+    background-color: rgba(22, 35, 205, 0.876);
+    background-repeat: repeat;
+    opacity: 0,5
+
+}
+
+/*--dando animaciones  a mis imagenes de los diversos maestros y sodimac en sodimachtml y maestrohtml */
+
+.animacion:hover{
+    transform: scale(0.9); 
+     transition: all 1.5s;
+         
+}
+
+
+        
